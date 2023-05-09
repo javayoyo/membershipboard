@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header {
+    background-color: #8bb9fe;
+
+}
+
+#nav {
+    background-color: #9ec5fe;
+}
+#section {
+    background-color: #adb5bd;
+
+}
+#footer {
+    background-color: cornflowerblue;
+}
+#nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+
+}
+#nav ul li.login-name {
+    float: right;
+}
