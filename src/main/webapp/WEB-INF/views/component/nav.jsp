@@ -41,10 +41,12 @@
     console.log(loginEmail.length);
 
     if(loginEmail.length != 0) {
-        loginArea.innerHTML = "<a href='/mypage' style='color:black;'>"+loginEmail + "님 로그인 중</a>"+
-            "<a href='/logout'>logout</a>";
+        loginArea.innerHTML = "<a href='/member/mypage' style='color:black;'>"+loginEmail + "님 마이페이지</a>"+
+            "<a href='/member/logout'>logout</a>";
+
     } else {
-        loginArea.innerHTML = "<a href='/login'>login</a>";
+        loginArea.innerHTML = "<a href='/member/login'>login</a>";
+
     }
 
 </script>

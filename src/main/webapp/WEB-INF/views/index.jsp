@@ -17,6 +17,11 @@
 <%@include file="./component/header.jsp"%>
 <%@include file="./component/nav.jsp"%>
 
+<div id="section">
+    회원들을 위한 게시판 입니다.
+</div>
+
+
 
 <%@include file="./component/footer.jsp"%>
 </body>
